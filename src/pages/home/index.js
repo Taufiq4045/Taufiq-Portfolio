@@ -4,7 +4,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typical from "react-typical";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-// import Resume from "../../assets/Taufiq.pdf"
 import { HiDocumentDownload } from "react-icons/hi";
 
 export default function Home() {
@@ -57,7 +56,7 @@ export default function Home() {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <a href={"https://drive.google.com/file/d/1Brh8M5DNnEtc1XThgleZgU6UoKOrZT0X/view?usp=sharing"} rel='noopener noreferrer' target='_blank'>
+                  <a href={"https://drive.google.com/file/d/1GOjYFnlYBra-9798Xi8rGziQ9j7949Dr/view?usp=sharing"} rel='noopener noreferrer' target='_blank'>
                     <div id="button_m" className="ac_btn btn">
                     <HiDocumentDownload style={{fontSize:"1.5rem"}}/>
                       Resume

@@ -2,11 +2,11 @@ import student from "./assets/images/assignmentSubmission.png"
 import car from "./assets/images/driveWell.png"
 import insta from "./assets/images/instaClone.png"
 import poetry from "./assets/images/ryanPoetry.png"
-import shortner from "./assets/images/urlshortner.png"
-import weather from "./assets/images/weather.png"
-import editor from "./assets/images/videoEditor.png"
-import library from "./assets/images/library.png"
-import game from "./assets/images/spaceInvader.png"
+// import shortner from "./assets/images/urlshortner.png"
+// import weather from "./assets/images/weather.png"
+// import editor from "./assets/images/videoEditor.png"
+// import library from "./assets/images/library.png"
+// import game from "./assets/images/spaceInvader.png"
 
 const logotext = "MT";
 const meta = {
@@ -100,20 +100,15 @@ const dataportfolio = [{
         desctiption: "A portal to get and submit the completed task provided between admin and students built using ReactJs,NodeJs and MongoDB.",
         link1: "https://student-task-submission.herokuapp.com/",
         link2: "https://github.com/Taufiq4045/student-task-submission.git",
+        link3: "https://github.com/Taufiq4045/student-task-server.git"
     },
     {
-        img: insta,
-        heading: "Instagram Clone",
-        desctiption: "A social app instagram clone for connecting people built using ReactJs,NodeJs and MongoDB.",
-        link1: "https://ig-clone-app.netlify.app/",
-        link2: "https://github.com/Taufiq4045/insta-clone.git",
-    },
-    {
-        img: weather,
-        heading: "Weather App",
-        desctiption: "A Weather app which reports weather all around the world with customizable search locations.",
-        link1: "https://weather-report-portal.netlify.app/",
-        link2: "https://github.com/Taufiq4045/Weather-App.git",
+        img: poetry,
+        heading: "Jack Ryan Poetry",
+        desctiption: "An e-commerce site for buying heartfelt poetry built using ReactJs,NodeJs and MongoDB.",
+        link1: "https://ecommerce-poetry.netlify.app/",
+        link2: "https://github.com/Taufiq4045/ecommerce-poetry.git",
+        link3: "https://github.com/Taufiq4045/ecommerce-server"
     },
     {
         img: car,
@@ -121,43 +116,16 @@ const dataportfolio = [{
         desctiption: "A social site for lending and renting cars at easy way built using ReactJs,NodeJs and MongoDB.",
         link1: "https://drive-well.netlify.app/",
         link2: "https://github.com/Taufiq4045/rental-app.git",
+        link3: "https://github.com/Taufiq4045/rentalcar-server"
     },
     {
-        img: shortner,
-        heading: "URL shortner app",
-        desctiption: "A URL shortner app free sing up and get details of shortened urls in Line chart built using ReactJs,NodeJs and MongoDB.",
-        link1: "https://url-shortner-free.herokuapp.com/",
-        link2: "https://github.com/Taufiq4045/url-shortner-app.git",
+        img: insta,
+        heading: "Instagram Clone",
+        desctiption: "A social app instagram clone for connecting people built using ReactJs,NodeJs and MongoDB.",
+        link1: "https://ig-clone-app.netlify.app/",
+        link2: "https://github.com/Taufiq4045/insta-clone.git",
+        link3: "https://github.com/Taufiq4045/insta-server"
     },
-    {
-        img: library,
-        heading: "Library",
-        desctiption: "A Simple Mern Stack application to handle Crud Operations  for managing details.",
-        link1: "https://library-crud.netlify.app/",
-        link2: "https://github.com/Taufiq4045/CRUD-task-library.git",
-    },
-
-    {
-        img: poetry,
-        heading: "Jack Ryan Poetry",
-        desctiption: "An e-commerce site for buying heartfelt poetry built using ReactJs,NodeJs and MongoDB.",
-        link1: "https://ecommerce-poetry.netlify.app/",
-        link2: "https://github.com/Taufiq4045/ecommerce-poetry.git",
-    },
-    {
-        img: editor,
-        heading: "Video Editor",
-        desctiption: "A web application to convert .mp4 to hls .m3u8 using react and NodeJs framework with FFMPEG plugin.",
-        link1: "https://mp4-hls-converting.netlify.app/",
-        link2: "https://github.com/Taufiq4045/Video-Format-Converter---HLS.git",
-    },
-    {
-        img: game,
-        heading: "Space Invader",
-        desctiption: "A Game built using Javascript and game mechanism where the enemy ships and hero ships are controlled by manipulating DOM.",
-        link1: "https://mission-invaders.netlify.app/",
-        link2: "https://github.com/Taufiq4045/Mission-Invaders.git"
-    }
 ];
 
 const contactConfig = {

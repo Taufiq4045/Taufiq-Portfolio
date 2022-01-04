@@ -27,8 +27,11 @@ function Portfolio() {
                 <div className="content">
                   <h3>{data.heading}</h3>
                   <p>{data.desctiption}</p>
-                  <a href={data.link1}>Live Demo</a>
-                  <a href={data.link2}>View Code</a>
+                  <div className="intro_btn-action pb-5" id="grid">
+                   <div><a href={data.link1} rel='noopener noreferrer' target='_blank'>Live Demo</a></div>
+                   <div><a href={data.link2} rel='noopener noreferrer' target='_blank'>Front-End Code</a></div>
+                   <div><a href={data.link3} rel='noopener noreferrer' target='_blank'>Back-End Code</a></div>
+                  </div>
                 </div>
               </div>
             );
