@@ -56,7 +56,7 @@ export default function Home() {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <a href={"https://drive.google.com/file/d/1n7qOA0O1OqbKr0wQqiy2SlGii37lkr8I/view"} rel='noopener noreferrer' target='_blank'>
+                  <a href={"https://drive.google.com/file/d/1kAQ03AxracC4swx-zSl9CxSbAh9qWd63/view"} rel='noopener noreferrer' target='_blank'>
                     <div id="button_m" className="ac_btn btn">
                     <HiDocumentDownload style={{fontSize:"1.5rem"}}/>
                       Resume
